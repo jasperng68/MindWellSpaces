@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Chat bubble background -->
+  <rect x="4" y="8" width="40" height="32" rx="16" fill="#E8F5FF"/>
+  
+  <!-- Flower petals -->
+  <path d="M24 16C26 18 28 18 30 16C32 14 32 12 30 10C28 8 26 8 24 10C22 12 22 14 24 16Z" fill="#FFB3D1"/>
+  <path d="M32 24C34 26 36 26 38 24C40 22 40 20 38 18C36 16 34 16 32 18C30 20 30 22 32 24Z" fill="#FFB3D1"/>
+  <path d="M24 32C26 34 28 34 30 32C32 30 32 28 30 26C28 24 26 24 24 26C22 28 22 30 24 32Z" fill="#FFB3D1"/>
+  <path d="M16 24C18 26 20 26 22 24C24 22 24 20 22 18C20 16 18 16 16 18C14 20 14 22 16 24Z" fill="#FFB3D1"/>
+  
+  <!-- Center circle -->
+  <circle cx="24" cy="24" r="4" fill="#FF80B0"/>
+  
+  <!-- AI dots -->
+  <circle cx="18" cy="30" r="2" fill="#4A90E2"/>
+  <circle cx="24" cy="30" r="2" fill="#4A90E2"/>
+  <circle cx="30" cy="30" r="2" fill="#4A90E2"/>
+</svg>
