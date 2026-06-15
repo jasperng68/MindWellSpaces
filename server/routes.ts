@@ -1,11 +1,11 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
-import { setupAuth, hashPassword, sanitizeUser } from "./auth";
-import { storage } from "./storage";
+import { setupAuth, hashPassword, sanitizeUser } from "./auth.js";
+import { storage } from "./storage.js";
 import passport from "passport";
-import { insertMoodSchema, insertJournalSchema, insertBreathingSchema } from "../shared/schema";
-import { insertChatMessageSchema } from "../shared/schema";
-import { findBestMatch } from "../shared/blossom-templates";
+import { insertMoodSchema, insertJournalSchema, insertBreathingSchema } from "../shared/schema.js";
+import { insertChatMessageSchema } from "../shared/schema.js";
+import { findBestMatch } from "../shared/blossom-templates.js";
 
 export function registerRoutes(app: Express): Server {
   setupAuth(app);

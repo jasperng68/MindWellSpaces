@@ -4,7 +4,7 @@ let app: express.Express;
 let initError: unknown;
 
 try {
-  const { registerRoutes } = await import("../server/routes.js");
+  const { registerRoutes } = await import("../server/routes.js"); // ESM requires .js extension
   app = express();
   app.use(express.json());
   app.use(express.urlencoded({ extended: false }));
