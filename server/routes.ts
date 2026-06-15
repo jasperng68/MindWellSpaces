@@ -3,9 +3,9 @@ import { createServer, type Server } from "http";
 import { setupAuth, hashPassword, sanitizeUser } from "./auth";
 import { storage } from "./storage";
 import passport from "passport";
-import { insertMoodSchema, insertJournalSchema, insertBreathingSchema } from "@shared/schema";
-import { insertChatMessageSchema } from "@shared/schema";
-import { findBestMatch } from "@shared/blossom-templates";
+import { insertMoodSchema, insertJournalSchema, insertBreathingSchema } from "../shared/schema";
+import { insertChatMessageSchema } from "../shared/schema";
+import { findBestMatch } from "../shared/blossom-templates";
 
 export function registerRoutes(app: Express): Server {
   setupAuth(app);

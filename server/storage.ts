@@ -4,7 +4,7 @@ import {
   User, InsertUser, Mood, InsertMood,
   Journal, InsertJournal, BreathingExercise, InsertBreathingExercise,
   ChatMessage, InsertChatMessage
-} from "@shared/schema";
+} from "../shared/schema";
 
 const MemoryStore = createMemoryStore(session);
 
